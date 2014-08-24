@@ -203,13 +203,11 @@ public class PlayerJoinListener {
                     NBTTagList enchantments = event.getPlayer().inventory.getCurrentItem().getEnchantmentTagList();
                     for (int i = 0; i < enchantments.tagCount(); i++)
                     {
-                        NBTTagCompound nbtTagCompound = enchantments.getCompoundTagAt(i)
+                        NBTTagCompound nbtTagCompound = enchantments.getCompoundTagAt(i);
+                        if (nbtTagCompound.getInteger("id") == 33)
                         {
-                            if (nbtTagCompound.getInteger("id") == 33)
-                            {
-                                item = new ItemStack(Blocks.stone);
-                                break;
-                            }
+                            item = new ItemStack(Blocks.stone);
+                            break;
                         }
                     }
                 }
