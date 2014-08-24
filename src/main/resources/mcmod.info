@@ -1,0 +1,16 @@
+[
+{
+  "modid": "spellcraft",
+  "name": "SpellCraft",
+  "description": "Which Path will you follow?",
+  "version": "1.0.0.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Castelbuilder123","Joe_Barley7"],
+  "credits": "Douglas Crockford for an awesome JSON Parser",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

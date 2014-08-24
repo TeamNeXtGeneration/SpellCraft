@@ -1,0 +1,9 @@
+spellcraft.itemTest.name=SpellCraft Debug Item
+spellcraft.itemKey.name=Schlüssel
+spellcraft.itemDevilSummoningStaff.name=Teufel Beschwörer
+spellcraft.blockPortalBoss.name=Portal zur Unterwelt
+spellcraft.blockKeyReceptical.name=Schlüsselloch
+spellcraft.blockKeyStone.name=Schlüsselstein
+itemGroup.SpellCraft=SpellCraft
+entity.spellcraft.Devil.name=Teufel
+entity.spellcraft.HellDog.name=Höllen Hund

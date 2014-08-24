@@ -1,0 +1,14 @@
+package de.castelbuilder123.spellcraft.entity.renderers;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.EntityRenderer;
+import net.minecraft.client.resources.IResourceManager;
+
+public class RenderBoss extends EntityRenderer {
+
+	public RenderBoss(Minecraft arg0, IResourceManager arg1) {
+		super(arg0, arg1);
+		// TODO Auto-generated constructor stub
+	}
+
+}

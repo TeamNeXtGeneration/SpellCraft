@@ -1,0 +1,92 @@
+package de.castelbuilder123.libNBT;
+
+import de.castelbuilder123.libNBT.tags.*;
+
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.util.zip.GZIPInputStream;
+
+/**
+ * Created by Jona on 09.08.14.
+ */
+public class NBTInputStream {
+    DataInputStream is;
+
+    public NBTInputStream(InputStream inputStream, boolean tryGZIP)
+    {
+        if (tryGZIP)
+        {
+            try {
+                is = new DataInputStream(new GZIPInputStream(inputStream));
+                return;
+            }
+            catch (Exception e) {}
+        }
+        is = new DataInputStream(inputStream);
+    }
+
+    public CompoundTag readRootTag() throws IOException
+    {
+        CompoundTag tag = null;
+        if (is.readByte() == 10)
+        {
+            tag = readCompoundTag(false, true);
+        }
+        else
+            throw new IOException("File doesn't start with a TAG_COMPOUND");
+        return tag;
+    }
+
+    public CompoundTag readCompoundTag(boolean named, boolean root) throws IOException
+    {
+        byte type = 10;
+        if (!root)
+            type = is.readByte();
+        String titel = "";
+        if (named)
+            titel = readStringTag(false, false).getValue();
+    }
+
+    public StringTag readStringTag(boolean named, boolean typeDetected) throws IOException
+    {
+        byte type = 8;
+        if (!typeDetected)
+            type = is.readByte();
+        if (type == 8)
+        {
+            String name = "";
+            if (named)
+                name = readStringTag(false, false).getValue();
+            Short lenght = readShortTag(false, false).getValue();
+            byte[] bValue = new byte[lenght];
+            for (int i = 1; i < lenght; i++)
+            {
+                bValue[i-1] = is.readByte();
+            }
+            String value = new String(bValue, StandardCharsets.UTF_8);
+            return new StringTag(name, value);
+        }
+        else
+            throw new IOException("String Tag should be read, but it was no TAG_STRING");
+    }
+
+    public ShortTag readShortTag(boolean named, boolean typeDetected) throws IOException
+    {
+        byte type = 2;
+        if (!typeDetected)
+            type = is.readByte();
+        if (type == 2)
+        {
+            String name = "";
+            if (named)
+                name = readStringTag(false).getValue();
+            Short value = is.readShort();
+            return new ShortTag(name, value);
+        }
+        else
+            throw new IOException("Short Tag should be read, but it was no TAG_SHORT");
+    }
+}

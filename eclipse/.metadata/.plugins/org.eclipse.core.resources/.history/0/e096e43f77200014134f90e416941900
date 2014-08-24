@@ -1,0 +1,7 @@
+package de.castelbuilder123.spellcraft.entity.renderers;
+
+import net.minecraft.client.renderer.EntityRenderer;
+
+public class RenderBoss extends EntityRenderer {
+
+}

@@ -1,0 +1,51 @@
+[15:29:05] [main/INFO]: Setting user: ForgeDevName
+[15:29:08] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:29:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
+[15:29:17] [Sound Library Loader/INFO]: Sound engine started
+[15:29:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:29:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:29:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
+[15:29:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:29:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:29:22] [Sound Library Loader/INFO]: Sound engine started
+[15:30:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:30:08] [Server thread/INFO]: Generating keypair
+[15:30:09] [Server thread/INFO]: Preparing start region for level 0
+[15:30:10] [Server thread/INFO]: Preparing spawn area: 69%
+[15:30:11] [Server thread/INFO]: ForgeDevName[local:E:48b91cc0] logged in with entity id 272 at (67.77580421840453, 126.0, -6.300000011920932)
+[15:30:11] [Server thread/INFO]: ForgeDevName joined the game
+[15:30:30] [Client thread/WARN]: Unable to play unknown soundEvent: spellcraft:boss.devil.DevilLiving
+[15:30:37] [Client thread/WARN]: Unable to play unknown soundEvent: spellcraft:boss.devil.DevilLiving
+[15:30:42] [Client thread/WARN]: Unable to play unknown soundEvent: spellcraft:boss.devil.DevilLiving
+[15:30:48] [Server thread/INFO]: Saving and pausing game...
+[15:30:48] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[15:30:48] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[15:30:48] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[15:30:48] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
+[15:30:50] [Client thread/INFO]: [CHAT] <Devil> Ok... you wanted it!
+[15:30:50] [Client thread/WARN]: Unable to play unknown soundEvent: spellcraft:boss.devil.DevilLiving
+[15:30:55] [Client thread/WARN]: Unable to play unknown soundEvent: spellcraft:boss.devil.DevilLiving
+[15:30:55] [Client thread/WARN]: Unable to play unknown soundEvent: spellcraft:boss.devil.DevilDeath
+[15:34:56] [Server thread/INFO]: Saving and pausing game...
+[15:34:56] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[15:34:56] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[15:34:56] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[15:34:56] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
+[15:35:49] [Server thread/INFO]: Saving and pausing game...
+[15:35:49] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[15:35:49] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[15:35:49] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[15:35:49] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
+[15:36:04] [Server thread/INFO]: Saving and pausing game...
+[15:36:04] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[15:36:04] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[15:36:04] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[15:36:04] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
+[15:36:05] [Server thread/INFO]: Stopping server
+[15:36:05] [Server thread/INFO]: Saving players
+[15:36:05] [Server thread/INFO]: Saving worlds
+[15:36:05] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[15:36:05] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[15:36:05] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[15:36:05] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
+[15:36:07] [Client thread/INFO]: Stopping!
