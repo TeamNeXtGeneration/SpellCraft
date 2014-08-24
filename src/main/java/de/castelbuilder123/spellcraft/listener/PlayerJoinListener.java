@@ -80,6 +80,7 @@ public class PlayerJoinListener {
     public void onPlayerLogout(PlayerEvent.PlayerLoggedOutEvent event)
     {
         PlayerData.onLogout(event.player);
+        PlayerDict.playernameToPlayer.remove(event.player.getDisplayName());
     }
 
     @SubscribeEvent
