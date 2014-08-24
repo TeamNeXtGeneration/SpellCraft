@@ -1,6 +1,7 @@
 package de.castelbuilder123.spellcraft.data;
 
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagInt;
 
@@ -16,7 +17,11 @@ public class PlayerData {
     public static void onJoin(EntityPlayer player)
     {
         NBTTagCompound dataReader = player.getEntityData();
-        playerNBTDatas.add(new PlayerNBTData(player.getDisplayName(), dataReader.getInteger("SpellCraftDecision")));
+        NBTBase decision = dataReader.getTag("SpellCraftDecision");
+        if (decision == null)
+            playerNBTDatas.add(new PlayerNBTData(player.getDisplayName(), 0));
+        else
+            playerNBTDatas.add(new PlayerNBTData(player.getDisplayName(), ((NBTTagInt)decision).func_150287_d()));
         //SpellCraftMod.log.info(dataReader.getInteger("decision"));
     }
 
