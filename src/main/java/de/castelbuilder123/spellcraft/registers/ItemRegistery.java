@@ -13,6 +13,8 @@ public class ItemRegistery
     public static Item DevilSummoningStaffItem;
     public static Item DevilTridentItem;
     public static Item SourceOfLightItem;
+    public static Item PowerOfTheDarknessItem;
+    public static Item PowerOfTheBrightItem;
 
 	public static void Register()
 	{
@@ -29,6 +31,10 @@ public class ItemRegistery
             GameRegistry.registerItem(DevilTridentItem, DevilTridentItem.getUnlocalizedName());
             SourceOfLightItem = new ItemSourceOfLight();
             GameRegistry.registerItem(SourceOfLightItem, SourceOfLightItem.getUnlocalizedName());
+            PowerOfTheDarknessItem = new ItemPowerOfTheDarkness();
+            GameRegistry.registerItem(PowerOfTheDarknessItem, PowerOfTheDarknessItem.getUnlocalizedName());
+            PowerOfTheBrightItem = new ItemPowerOfTheBright();
+            GameRegistry.registerItem(PowerOfTheBrightItem, PowerOfTheBrightItem.getUnlocalizedName());
 		}
 	}
 	public static boolean getRegistered()
