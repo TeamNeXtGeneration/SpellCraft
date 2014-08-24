@@ -1,5 +1,6 @@
 TODO List as of the stand of the 21.08.2014:
-The decision screen
+Save Devil Variables to NBT
+Protection against redeciding
 The fun part: The paths
 
 
