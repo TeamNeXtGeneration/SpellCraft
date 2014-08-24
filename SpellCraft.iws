@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/!!!TODO!!!.txt" afterPath="$PROJECT_DIR$/!!!TODO!!!.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpellCraft.iws" afterPath="$PROJECT_DIR$/SpellCraft.iws" />
     </list>
     <ignored path="SpellCraft.iws" />
@@ -798,7 +797,7 @@
       <workItem from="1408802230361" duration="12752000" />
       <workItem from="1408879026340" duration="8367000" />
       <workItem from="1408892734060" duration="378000" />
-      <workItem from="1408896309371" duration="1954000" />
+      <workItem from="1408896309371" duration="1975000" />
     </task>
     <task id="LOCAL-00001" summary="Dropbox...">
       <created>1408892801564</created>
@@ -828,11 +827,15 @@
       <created>1408898280095</created>
       <updated>1408898280095</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated TODO">
+      <created>1408898300275</created>
+      <updated>1408898300275</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210202000" />
+    <option name="totallyTimeSpent" value="210223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -885,7 +888,8 @@
     <MESSAGE value="Added saving of Boss Variables&#10;" />
     <MESSAGE value="Updated TODO List" />
     <MESSAGE value="Added Redecision Protection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Redecision Protection" />
+    <MESSAGE value="Updated TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated TODO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
