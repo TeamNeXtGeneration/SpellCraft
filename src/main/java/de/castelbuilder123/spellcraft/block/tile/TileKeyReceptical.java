@@ -10,9 +10,6 @@ import net.minecraft.network.Packet;
 import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 
-/**
- * Created by Jona on 07.08.14.
- */
 public class TileKeyReceptical extends TileEntity implements ISidedInventory {
     public boolean hasKey = false;
 
@@ -55,9 +52,7 @@ public class TileKeyReceptical extends TileEntity implements ISidedInventory {
 
     @Override
     public boolean canInsertItem(int p_102007_1_, ItemStack p_102007_2_, int p_102007_3_) {
-        if (p_102007_2_.getItem() == ItemRegistery.KeyItem) // Only keys
-            return true;
-        return false;
+        return p_102007_2_.getItem() == ItemRegistery.KeyItem;
     }
 
     @Override
@@ -77,7 +72,7 @@ public class TileKeyReceptical extends TileEntity implements ISidedInventory {
             if (slot == 1)
                 return (ItemStack)hasItem(true);
         }
-        catch(Exception ex) { } // Nothing because of return null
+        catch(Exception ex) { return null; } // Nothing because of return null
         return null;
     }
 
@@ -141,8 +136,6 @@ public class TileKeyReceptical extends TileEntity implements ISidedInventory {
 
     @Override
     public boolean isItemValidForSlot(int slot, ItemStack item) {
-        if (slot == 1 && item.getItem() == ItemRegistery.KeyItem)
-            return true;
-        return false;
+        return slot == 1 && item.getItem() == ItemRegistery.KeyItem;
     }
 }

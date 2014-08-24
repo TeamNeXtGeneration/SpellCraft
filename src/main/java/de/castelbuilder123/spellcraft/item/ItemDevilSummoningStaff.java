@@ -1,9 +1,7 @@
 package de.castelbuilder123.spellcraft.item;
 
-import com.sun.java.swing.plaf.windows.resources.windows_pt_BR;
 import de.castelbuilder123.spellcraft.SpellCraftMod;
 import de.castelbuilder123.spellcraft.entity.EntityBoss;
-import de.castelbuilder123.spellcraft.proxies.Proxy;
 import de.castelbuilder123.spellcraft.registers.ItemRegistery;
 import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -13,9 +11,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-/**
- * Created by Jona on 07.08.14.
- */
 public class ItemDevilSummoningStaff extends Item {
     public ItemDevilSummoningStaff()
     {
@@ -50,9 +45,7 @@ public class ItemDevilSummoningStaff extends Item {
 
     public boolean canBeUsed(int x, int y, int z)
     {
-        if (x >= 63 && x <= 67 && y == 127 && z >= -4 && z <= 4)
-            return true;
-        return false;
+        return x >= 63 && x <= 67 && y == 127 && z >= -4 && z <= 4;
     }
 
     @Override
