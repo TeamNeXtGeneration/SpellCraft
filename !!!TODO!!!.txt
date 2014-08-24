@@ -1,8 +1,3 @@
-TODO List as of the stand of the 21.08.2014:
-Save Devil Variables to NBT
-Protection against redeciding
+TODO List as of the stand of the 24.08.2014:
+Protection against redecision
 The fun part: The paths
-
-
-NOTE!!!
-Please enter your name on the thing you are working on!!!
