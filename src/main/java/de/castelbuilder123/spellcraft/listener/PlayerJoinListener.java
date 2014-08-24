@@ -74,6 +74,7 @@ public class PlayerJoinListener {
                 }
             }
         }
+
         PlayerDict.playernameToPlayer.put(event.player.getDisplayName(), event.player);
     }
     @SubscribeEvent
