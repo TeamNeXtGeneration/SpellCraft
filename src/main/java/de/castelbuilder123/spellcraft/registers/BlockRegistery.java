@@ -25,7 +25,6 @@ public class BlockRegistery
             GameRegistry.registerBlock(KeyReceptical, KeyReceptical.getUnlocalizedName());
             KeyStone = new BlockKeyStone();
             GameRegistry.registerBlock(KeyStone, KeyStone.getUnlocalizedName());
-			//TODO: Add registration Stuff and Things.
 		}
 	}
 	public static boolean getRegistered()

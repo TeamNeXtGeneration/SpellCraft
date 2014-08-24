@@ -21,7 +21,6 @@ public class EntityRegistery
             VillagerRegistry.instance().registerVillageTradeHandler(1119, new VillageTradeHandler());
 			cpw.mods.fml.common.registry.EntityRegistry.registerModEntity(EntityBoss.class, "Devil", 0, SpellCraftMod.instance, 25, 1, true); // We need that, because after 1.7 registerGlobalEntityID will go away
             cpw.mods.fml.common.registry.EntityRegistry.registerModEntity(EntityHellDog.class, "HellDog", 1, SpellCraftMod.instance, 25, 1, true);
-			//TODO: Add registration Stuff and Things.
 		}
 	}
 	public static boolean getRegistered()
