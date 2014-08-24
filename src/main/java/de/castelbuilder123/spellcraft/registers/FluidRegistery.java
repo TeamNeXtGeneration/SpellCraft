@@ -8,7 +8,6 @@ public class FluidRegistery
 		if (!registered)
 		{
 			registered = true;
-			//TODO: Add registration Stuff and Things.
 		}
 	}
 	public static boolean getRegistered()
