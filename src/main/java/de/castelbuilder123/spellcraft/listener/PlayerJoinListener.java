@@ -22,6 +22,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemBucket;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagList;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.world.WorldServer;
@@ -187,7 +189,7 @@ public class PlayerJoinListener {
         }
         if (event.block instanceof BlockMagicOre)
         {
-            ItemStack item;
+            ItemStack item = new ItemStack(Blocks.cobblestone);
             int decision = Redecision.GetPlayerDecision(event.getPlayer().getDisplayName());
             if (decision == 1)
                 item = new ItemStack(BlockMagicOre);
@@ -197,13 +199,24 @@ public class PlayerJoinListener {
             {
                 if (event.getPlayer().inventory.getCurrentItem().isItemEnchanted())
                 {
-
+                    NBTTagList enchantments = event.getPlayer().inventory.getCurrentItem().getEnchantmentTagList();
+                    for (int i = 0; i < enchantments.tagCount(); i++)
+                    {
+                        NBTTagCompound nbtTagCompound = enchantments.getCompoundTagAt(i)
+                        {
+                            if (nbtTagCompound.getInteger("id") == 33)
+                            {
+                                item = new ItemStack(Blocks.stone);
+                                break;
+                            }
+                        }
+                    }
                 }
                 else
                     item = new ItemStack(Blocks.cobblestone);
             }
-            Entity entity = new EntityItem(event.world, event.x+.5D, event.y+.5D, event.z + .5D)
-            event.world.
+            Entity entity = new EntityItem(event.world, event.x+.5D, event.y+.5D, event.z + .5D, item);
+            event.world.spawnEntityInWorld(entity);
         }
     }
 
