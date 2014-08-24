@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpellCraft.iws" afterPath="$PROJECT_DIR$/SpellCraft.iws" />
     </list>
     <ignored path="SpellCraft.iws" />
@@ -109,7 +110,7 @@
       <file leaf-file-name="EntityBoss.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="5" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.20281996" vertical-offset="0" max-vertical-offset="3706">
+            <state line="44" column="29" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.31344903" vertical-offset="0" max-vertical-offset="3825">
               <folding />
             </state>
           </provider>
@@ -177,9 +178,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemSourceOfLight.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/ItemRegistery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/dict/PlayerDict.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" />
       </list>
     </option>
   </component>
@@ -760,7 +761,7 @@
       <workItem from="1408802230361" duration="12752000" />
       <workItem from="1408879026340" duration="8367000" />
       <workItem from="1408892734060" duration="378000" />
-      <workItem from="1408896309371" duration="513000" />
+      <workItem from="1408896309371" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="Dropbox...">
       <created>1408892801564</created>
@@ -774,11 +775,15 @@
       <created>1408896715384</created>
       <updated>1408896715384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a PlayerName to EntityPlayer Dictionary&#10;">
+      <created>1408896852075</created>
+      <updated>1408896852075</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208761000" />
+    <option name="totallyTimeSpent" value="209121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1110,7 +1115,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.20281996" vertical-offset="0" max-vertical-offset="3706">
+        <state line="44" column="29" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.31344903" vertical-offset="0" max-vertical-offset="3825">
           <folding />
         </state>
       </provider>

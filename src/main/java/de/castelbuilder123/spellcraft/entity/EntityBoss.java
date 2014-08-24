@@ -10,6 +10,7 @@ import de.castelbuilder123.spellcraft.network.PacketKillEntity;
 import de.castelbuilder123.spellcraft.network.PacketQueryDecision;
 import de.castelbuilder123.spellcraft.proxies.Proxy;
 import de.castelbuilder123.spellcraft.registers.ItemRegistery;
+import de.castelbuilder123.spellcraft.utils.dict.PlayerDict;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.IRangedAttackMob;
@@ -40,17 +41,24 @@ public class EntityBoss extends EntityMob implements IBossDisplayData, IRangedAt
     @Override
     public void writeEntityToNBT(NBTTagCompound tag)
     {
-        NBTTagCompound nbt = tag.getCompoundTag("SpellCraft");
-        if (nbt != null)
-        {
-
-        }
+        NBTTagCompound nbt = new NBTTagCompound();
+        nbt.setString("killer", killer.getDisplayName());
+        nbt.setInteger("PlayerDecision", PlayerDecision);
     }
 
     @Override
     public void readEntityFromNBT(NBTTagCompound tag)
     {
-
+        NBTTagCompound nbt = tag.getCompoundTag("SpellCraft");
+        if (nbt != null)
+        {
+            String user = nbt.getString("killer");
+            if (PlayerDict.playernameToPlayer.containsKey(user))
+            {
+                killer = PlayerDict.playernameToPlayer.get(user);
+                PlayerDecision = nbt.getInteger("PlayerDecision");
+            }
+        }
     }
 
     private EntityPlayer killer;
