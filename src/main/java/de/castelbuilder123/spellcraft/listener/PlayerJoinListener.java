@@ -4,19 +4,24 @@ import com.mojang.realmsclient.gui.ChatFormatting;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.PlayerEvent;
 import de.castelbuilder123.spellcraft.SpellCraftMod;
+import de.castelbuilder123.spellcraft.block.BlockMagicOre;
 import de.castelbuilder123.spellcraft.data.MapData;
 import de.castelbuilder123.spellcraft.data.PlayerData;
+import de.castelbuilder123.spellcraft.registers.BlockRegistery;
+import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import de.castelbuilder123.spellcraft.utils.dict.PlayerDict;
 import de.castelbuilder123.spellcraft.utils.template.BlockDictionary;
 import de.castelbuilder123.spellcraft.utils.template.ItemDictionary;
-import de.castelbuilder123.spellcraft.utils.template.TemplateCreator;
 import de.castelbuilder123.spellcraft.utils.template.TemplateParser;
 import net.minecraft.block.Block;
-import net.minecraft.client.Minecraft;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemBucket;
+import net.minecraft.item.ItemStack;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.world.WorldServer;
@@ -24,9 +29,8 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.event.world.WorldEvent;
 
-import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
+
 
 /**
  * Created by Jona on 05.08.14.
@@ -180,6 +184,26 @@ public class PlayerJoinListener {
         {
             if (event.isCancelable())
                 event.setCanceled(true);
+        }
+        if (event.block instanceof BlockMagicOre)
+        {
+            ItemStack item;
+            int decision = Redecision.GetPlayerDecision(event.getPlayer().getDisplayName());
+            if (decision == 1)
+                item = new ItemStack(BlockMagicOre);
+            else if (decision == 2)
+                item = new ItemStack();
+            else
+            {
+                if (event.getPlayer().inventory.getCurrentItem().isItemEnchanted())
+                {
+
+                }
+                else
+                    item = new ItemStack(Blocks.cobblestone);
+            }
+            Entity entity = new EntityItem(event.world, event.x+.5D, event.y+.5D, event.z + .5D)
+            event.world.
         }
     }
 

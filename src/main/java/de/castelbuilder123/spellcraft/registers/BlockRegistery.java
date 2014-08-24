@@ -1,10 +1,7 @@
 package de.castelbuilder123.spellcraft.registers;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import de.castelbuilder123.spellcraft.block.BlockKeyReceptical;
-import de.castelbuilder123.spellcraft.block.BlockKeyStone;
-import de.castelbuilder123.spellcraft.block.BlockPortalBoss;
-import de.castelbuilder123.spellcraft.block.ItemBlockPortalBoss;
+import de.castelbuilder123.spellcraft.block.*;
 
 public class BlockRegistery
 {
@@ -13,6 +10,7 @@ public class BlockRegistery
     public static BlockPortalBoss BossPortal;
     public static BlockKeyReceptical KeyReceptical;
     public static BlockKeyStone KeyStone;
+    public static BlockMagicOre MagicOre;
 
 	public static void Register()
 	{
@@ -25,7 +23,8 @@ public class BlockRegistery
             GameRegistry.registerBlock(KeyReceptical, KeyReceptical.getUnlocalizedName());
             KeyStone = new BlockKeyStone();
             GameRegistry.registerBlock(KeyStone, KeyStone.getUnlocalizedName());
-			//TODO: Add registration Stuff and Things.
+            MagicOre = new BlockMagicOre();
+            GameRegistry.registerBlock(MagicOre, MagicOre.getUnlocalizedName());
 		}
 	}
 	public static boolean getRegistered()
