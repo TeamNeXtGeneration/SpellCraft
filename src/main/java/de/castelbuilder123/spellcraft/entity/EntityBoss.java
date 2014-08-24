@@ -10,6 +10,7 @@ import de.castelbuilder123.spellcraft.network.PacketKillEntity;
 import de.castelbuilder123.spellcraft.network.PacketQueryDecision;
 import de.castelbuilder123.spellcraft.proxies.Proxy;
 import de.castelbuilder123.spellcraft.registers.ItemRegistery;
+import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import de.castelbuilder123.spellcraft.utils.dict.PlayerDict;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -87,39 +88,16 @@ public class EntityBoss extends EntityMob implements IBossDisplayData, IRangedAt
             //SpellCraftMod.log.info("[Devil] PlayerDecision: " + PlayerDecision);
             if (PlayerDecision == 0)
             {
-                if (this.getHealth() < this.getMaxHealth() / 5)
+                if (this.getHealth() < this.getMaxHealth() / 5 && killer != null)
                 {
                         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0D);
                         summonCooldown = Integer.MAX_VALUE;
-                        for (Object entityObj: worldObj.getLoadedEntityList())
-                        {
-                            if (entityObj instanceof EntityLivingBase)
-                            {
-                                EntityLivingBase ent = (EntityLivingBase) entityObj;
-                                if (ent.getEntityId() != this.getEntityId())
-                                {
-                                    ent.setDead();
-                                }
-                            }
-                        }
                         PlayerDecision = 3;
                         killer.openGui(SpellCraftMod.instance, DecisionScreen.GUI_ID, worldObj, (int)posX, (int)posY, (int)posZ);
                 }
             }
             else if (PlayerDecision == 3)
             {
-                /*
-                for (Object entityObj: worldObj.getLoadedEntityList())
-                {
-                    if (entityObj instanceof EntityLivingBase)
-                    {
-                        EntityLivingBase ent = (EntityLivingBase) entityObj;
-                        if (ent.getEntityId() != this.getEntityId())
-                        {
-                            ent.setDead();
-                        }
-                    }
-                }*/
                 for(PlayerNBTData da: PlayerData.playerNBTDatas)
                 {
                     if (da.username == killer.getDisplayName())
@@ -159,7 +137,8 @@ public class EntityBoss extends EntityMob implements IBossDisplayData, IRangedAt
                 lastHealth = (int)this.getHealth();
                 if (attacker != null)
                 {
-                    killer = attacker;
+                    if (!Redecision.hasDecided(attacker.getDisplayName()))
+                        killer = attacker;
                 }
             }
         }

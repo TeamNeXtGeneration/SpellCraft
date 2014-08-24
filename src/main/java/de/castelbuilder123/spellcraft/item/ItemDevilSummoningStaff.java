@@ -5,6 +5,7 @@ import de.castelbuilder123.spellcraft.SpellCraftMod;
 import de.castelbuilder123.spellcraft.entity.EntityBoss;
 import de.castelbuilder123.spellcraft.proxies.Proxy;
 import de.castelbuilder123.spellcraft.registers.ItemRegistery;
+import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -27,6 +28,8 @@ public class ItemDevilSummoningStaff extends Item {
                              EntityPlayer player, World world, int x, int y,
                              int z, int par7, float xFloat, float yFloat, float zFloat)
     {
+        if (Redecision.hasDecided(player.getDisplayName()))
+            return false;
         if (world.provider.dimensionId == -2)
         {
             if (canBeUsed(x,y,z))

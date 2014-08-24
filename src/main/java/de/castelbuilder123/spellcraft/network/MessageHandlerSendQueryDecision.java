@@ -14,7 +14,7 @@ public class MessageHandlerSendQueryDecision implements IMessageHandler<PacketQu
     @Override
     public IMessage onMessage(PacketQueryDecision message, MessageContext ctx) {
         for (PlayerNBTData data : PlayerData.playerNBTDatas)
-            if (data.username == message.u) {
+            if (data.username.equals(message.u)) {
                 PacketQueryDecisionAnswer toSend = new PacketQueryDecisionAnswer();
                 toSend.u = message.u;
                 toSend.d = data.decision;

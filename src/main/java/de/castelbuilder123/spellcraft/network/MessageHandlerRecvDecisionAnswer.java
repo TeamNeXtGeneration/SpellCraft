@@ -14,7 +14,7 @@ public class MessageHandlerRecvDecisionAnswer implements IMessageHandler<PacketQ
     @Override
     public IMessage onMessage(PacketQueryDecisionAnswer message, MessageContext ctx) {
             for (PlayerNBTData data : PlayerData.playerNBTDatas)
-                if (data.username == ((PacketQueryDecisionAnswer) message).u) {
+                if (data.username.equals(message.u)) {
                     data.decision = ((PacketQueryDecisionAnswer) message).d;
                     break;
                 }
