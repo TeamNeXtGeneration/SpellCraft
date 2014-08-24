@@ -8,6 +8,7 @@ import de.castelbuilder123.spellcraft.block.BlockMagicOre;
 import de.castelbuilder123.spellcraft.data.MapData;
 import de.castelbuilder123.spellcraft.data.PlayerData;
 import de.castelbuilder123.spellcraft.registers.BlockRegistery;
+import de.castelbuilder123.spellcraft.registers.ItemRegistery;
 import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import de.castelbuilder123.spellcraft.utils.dict.PlayerDict;
 import de.castelbuilder123.spellcraft.utils.template.BlockDictionary;
@@ -192,9 +193,9 @@ public class PlayerJoinListener {
             ItemStack item = new ItemStack(Blocks.cobblestone);
             int decision = Redecision.GetPlayerDecision(event.getPlayer().getDisplayName());
             if (decision == 1)
-                item = new ItemStack(BlockMagicOre);
+                item = new ItemStack(ItemRegistery.PowerOfTheBrightItem);
             else if (decision == 2)
-                item = new ItemStack();
+                item = new ItemStack(ItemRegistery.PowerOfTheDarknessItem);
             else
             {
                 if (event.getPlayer().inventory.getCurrentItem().isItemEnchanted())
