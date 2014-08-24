@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/anticheat/Redecision.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilSummoningStaff.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilSummoningStaff.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerRecvDecisionAnswer.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerRecvDecisionAnswer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerSendQueryDecision.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerSendQueryDecision.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/!!!TODO!!!.txt" afterPath="$PROJECT_DIR$/!!!TODO!!!.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpellCraft.iws" afterPath="$PROJECT_DIR$/SpellCraft.iws" />
     </list>
     <ignored path="SpellCraft.iws" />
@@ -169,12 +165,12 @@
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/ItemRegistery.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/dict/PlayerDict.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java" />
-        <option value="$PROJECT_DIR$/!!!TODO!!!.txt" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerSendQueryDecision.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerRecvDecisionAnswer.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/anticheat/Redecision.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilSummoningStaff.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" />
+        <option value="$PROJECT_DIR$/!!!TODO!!!.txt" />
       </list>
     </option>
   </component>
@@ -802,7 +798,7 @@
       <workItem from="1408802230361" duration="12752000" />
       <workItem from="1408879026340" duration="8367000" />
       <workItem from="1408892734060" duration="378000" />
-      <workItem from="1408896309371" duration="1917000" />
+      <workItem from="1408896309371" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="Dropbox...">
       <created>1408892801564</created>
@@ -828,11 +824,15 @@
       <created>1408897329863</created>
       <updated>1408897329863</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Redecision Protection">
+      <created>1408898280095</created>
+      <updated>1408898280095</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210165000" />
+    <option name="totallyTimeSpent" value="210202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -884,7 +884,8 @@
     <MESSAGE value="Added a PlayerName to EntityPlayer Dictionary&#10;" />
     <MESSAGE value="Added saving of Boss Variables&#10;" />
     <MESSAGE value="Updated TODO List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated TODO List" />
+    <MESSAGE value="Added Redecision Protection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Redecision Protection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1139,13 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/!!!TODO!!!.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="98" selection-end="98" vertical-scroll-proportion="0.036876354" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerSendQueryDecision.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="48" selection-start="746" selection-end="746" vertical-scroll-proportion="0.20281996" vertical-offset="0" max-vertical-offset="922">
@@ -1179,6 +1173,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="139" column="72" selection-start="5733" selection-end="5733" vertical-scroll-proportion="0.37310195" vertical-offset="1543" max-vertical-offset="3451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/!!!TODO!!!.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="922">
           <folding />
         </state>
       </provider>

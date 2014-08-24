@@ -1,3 +1,2 @@
 TODO List as of the stand of the 24.08.2014:
-Protection against redecision
 The fun part: The paths
