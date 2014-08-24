@@ -1,2 +1,7 @@
-*.dropbox
-!!!TODO!!!.txt
+/*
+/*/
+!/src/
+!.gitignore
+!build.gradle
+!/gradle/
+!gradlew*
