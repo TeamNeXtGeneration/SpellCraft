@@ -4,11 +4,9 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="Code Optimizations">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/template/BlockDictionary.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/template/BlockDictionary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilSummoningStaff.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilSummoningStaff.java" />
+    <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Jona\Dropbox\Java\Minecraft\Forge\SpellCraft\SplelCraft.iws" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpellCraft.iws" afterPath="$PROJECT_DIR$/SpellCraft.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/block/tile/TileKeyReceptical.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/block/tile/TileKeyReceptical.java" />
     </list>
     <ignored path="SpellCraft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +82,7 @@
       <file leaf-file-name="TemplateParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/template/TemplateParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="29" selection-start="5228" selection-end="5228" vertical-scroll-proportion="0.77874184" vertical-offset="897" max-vertical-offset="1819">
+            <state line="88" column="77" selection-start="4446" selection-end="4446" vertical-scroll-proportion="0.4099783" vertical-offset="897" max-vertical-offset="1819">
               <folding />
             </state>
           </provider>
@@ -782,7 +780,7 @@
       <workItem from="1408802230361" duration="12752000" />
       <workItem from="1408879026340" duration="8367000" />
       <workItem from="1408892734060" duration="378000" />
-      <workItem from="1408896309371" duration="2519000" />
+      <workItem from="1408896309371" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="Dropbox...">
       <created>1408892801564</created>
@@ -820,11 +818,15 @@
       <created>1408898316469</created>
       <updated>1408898316469</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Code Optimizations">
+      <created>1408898862440</created>
+      <updated>1408898862440</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210767000" />
+    <option name="totallyTimeSpent" value="210893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1182,7 +1184,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/template/TemplateParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="29" selection-start="5228" selection-end="5228" vertical-scroll-proportion="0.77874184" vertical-offset="897" max-vertical-offset="1819">
+        <state line="88" column="77" selection-start="4446" selection-end="4446" vertical-scroll-proportion="0.4099783" vertical-offset="897" max-vertical-offset="1819">
           <folding />
         </state>
       </provider>
