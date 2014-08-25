@@ -10,7 +10,7 @@ public class ItemDevilTrident extends Item
     public ItemDevilTrident()
     {
         super();
-        setCreativeTab(SpellCraftMod.tabSpellCraft);
+        setCreativeTab(SpellCraftMod.tabSpellCraftDark);
         setMaxStackSize(1);
         setMaxDamage(20);
     }

@@ -17,7 +17,6 @@ import de.castelbuilder123.spellcraft.network.PacketHandler;
 import de.castelbuilder123.spellcraft.proxies.Proxy;
 import de.castelbuilder123.spellcraft.registers.*;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
@@ -45,7 +44,19 @@ public class SpellCraftMod
     public static CreativeTabs tabSpellCraft = new CreativeTabs("SpellCraft") {
         @Override
         public Item getTabIconItem() {
-            return Items.ender_eye;
+            return ItemRegistery.DevilSummoningStaffItem;
+        }
+    };
+    public static CreativeTabs tabSpellCraftBright = new CreativeTabs("SpellCraftBrightPath") {
+        @Override
+        public Item getTabIconItem() {
+        return ItemRegistery.PowerOfTheBrightItem;
+    }
+    };
+    public static CreativeTabs tabSpellCraftDark = new CreativeTabs("SpellCraftDarkPath") {
+        @Override
+        public Item getTabIconItem() {
+            return ItemRegistery.PowerOfTheDarknessItem;
         }
     };
 

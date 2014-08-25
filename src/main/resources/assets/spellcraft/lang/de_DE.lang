@@ -12,5 +12,7 @@ spellcraft.blockKeyReceptical.name=Schlüsselloch
 spellcraft.blockKeyStone.name=Schlüsselstein
 spellcraft.blockMagicOre.name=Magisches Erz
 itemGroup.SpellCraft=SpellCraft
+itemGroup.SpellCraftBrightPath=SpellCraft heller Pfad
+itemGroup.SpellCraftDarkPath=SpellCraft dunkler Pfad
 entity.spellcraft.Devil.name=Teufel
 entity.spellcraft.HellDog.name=Höllen Hund

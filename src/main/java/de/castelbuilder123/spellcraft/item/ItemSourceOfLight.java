@@ -10,7 +10,7 @@ public class ItemSourceOfLight extends Item
     public ItemSourceOfLight()
     {
         super();
-        setCreativeTab(SpellCraftMod.tabSpellCraft);
+        setCreativeTab(SpellCraftMod.tabSpellCraftBright);
         setMaxStackSize(1);
     }
 

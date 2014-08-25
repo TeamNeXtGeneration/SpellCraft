@@ -5,13 +5,10 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-/**
- * Created by Jona on 25.08.14.
- */
 public class ItemBookOfMagic extends Item {
     public ItemBookOfMagic() {
         super();
-        setCreativeTab(SpellCraftMod.tabSpellCraft);
+        setCreativeTab(SpellCraftMod.tabSpellCraftBright);
         setMaxStackSize(1);
     }
 

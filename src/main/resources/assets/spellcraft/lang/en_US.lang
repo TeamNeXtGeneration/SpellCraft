@@ -12,5 +12,7 @@ spellcraft.blockKeyReceptical.name=Keyhole
 spellcraft.blockKeyStone.name=Key Stone
 spellcraft.blockMagicOre.name=Magic Ore
 itemGroup.SpellCraft=SpellCraft
+itemGroup.SpellCraftBrightPath=SpellCraft bright Path
+itemGroup.SpellCraftDarkPath=SpellCraft dark Path
 entity.spellcraft.Devil.name=Devil
 entity.spellcraft.HellDog.name=Hell Dog

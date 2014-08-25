@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 public class ItemBookOfDarkMagic extends Item {
     public ItemBookOfDarkMagic() {
         super();
-        setCreativeTab(SpellCraftMod.tabSpellCraft);
+        setCreativeTab(SpellCraftMod.tabSpellCraftDark);
         setMaxStackSize(1);
     }
 
