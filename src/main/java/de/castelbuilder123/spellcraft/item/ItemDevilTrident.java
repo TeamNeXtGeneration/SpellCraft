@@ -12,6 +12,7 @@ public class ItemDevilTrident extends Item
         super();
         setCreativeTab(SpellCraftMod.tabSpellCraft);
         setMaxStackSize(1);
+        setMaxDamage(20);
     }
 
     @Override

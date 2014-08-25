@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:true
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:1
 fancyGraphics:true
 ao:2
 clouds:true
@@ -27,7 +27,7 @@ snooperEnabled:false
 fullscreen:false
 enableVsync:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
