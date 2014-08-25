@@ -4,7 +4,7 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="Enhanced DecisionScreen, Fixed lang files (missing .name), Experimenting with pipes from buildcraft and the keyholes">
+    <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat_old" />
@@ -19,20 +19,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/gui/DecisionScreen.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/gui/DecisionScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/CraftingRegistery.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/CraftingRegistery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/NEI/local/ParseTest/NEI.dat" afterPath="$PROJECT_DIR$/eclipse/saves/NEI/local/ParseTest/NEI.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpellCraft.iws" afterPath="$PROJECT_DIR$/SpellCraft.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/block/tile/TileKeyReceptical.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/block/tile/TileKeyReceptical.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/NEI/client.cfg" afterPath="$PROJECT_DIR$/eclipse/config/NEI/client.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/de_DE.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/de_DE.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/en_US.lang" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/options.txt" afterPath="$PROJECT_DIR$/eclipse/options.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/session.lock" />
     </list>
     <ignored path="SpellCraft.iws" />
@@ -106,14 +101,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DecisionScreen.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/gui/DecisionScreen.java">
+      <file leaf-file-name="CraftingRegistery.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/CraftingRegistery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.67464113" vertical-offset="342" max-vertical-offset="969">
-              <folding>
-                <element signature="e#1688#1689#0" expanded="true" />
-                <element signature="e#1712#1713#0" expanded="true" />
-              </folding>
+            <state line="17" column="26" selection-start="482" selection-end="482" vertical-scroll-proportion="0.39932886" vertical-offset="0" max-vertical-offset="596">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/utils/template/TemplateParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/data/MapData.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemSummoningStaff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/CraftingRegistery.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityHellDog.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/data/PlayerNBTData.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandler.java" />
@@ -183,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/de_DE.lang" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/gui/DecisionScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/CraftingRegistery.java" />
       </list>
     </option>
   </component>
@@ -409,6 +401,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spellcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="castelbuilder123" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spellcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="registers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1081,7 +1107,7 @@
       <workItem from="1408896309371" duration="4061000" />
       <workItem from="1408906222095" duration="7335000" />
       <workItem from="1408952430257" duration="14957000" />
-      <workItem from="1408974081364" duration="5079000" />
+      <workItem from="1408974081364" duration="5939000" />
     </task>
     <task id="LOCAL-00001" summary="Dropbox...">
       <created>1408892801564</created>
@@ -1171,11 +1197,15 @@
       <created>1408974912738</created>
       <updated>1408974912738</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Enhanced DecisionScreen, Fixed lang files (missing .name), Experimenting with pipes from buildcraft and the keyholes">
+      <created>1408979301860</created>
+      <updated>1408979301860</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239680000" />
+    <option name="totallyTimeSpent" value="240540000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1199,7 +1229,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1214,14 +1244,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31118143" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31118143" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34388185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34388185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1327,7 +1357,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/BlockRegistery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1190/forgeSrc-1.7.10-10.13.0.1190-sources.jar!/net/minecraft/block/Block.java">
@@ -1349,7 +1381,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilSummoningStaff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="55" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="1105" />
+        <state line="33" column="55" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="1105">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1190/forgeSrc-1.7.10-10.13.0.1190-sources.jar!/net/minecraft/block/BlockCommandBlock.java">
@@ -1409,13 +1445,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="922" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/CraftingRegistery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="94" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spellcraft/textures/items/IconItemBookOfMagic.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1433,7 +1462,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemBookOfDarkMagic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="383" selection-end="383" vertical-scroll-proportion="0.18438178" vertical-offset="0" max-vertical-offset="922" />
+        <state line="10" column="54" selection-start="383" selection-end="383" vertical-scroll-proportion="0.18438178" vertical-offset="0" max-vertical-offset="922">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/ItemRegistery.java">
@@ -1445,7 +1478,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemSourceOfLight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="385" selection-end="385" vertical-scroll-proportion="0.16594361" vertical-offset="0" max-vertical-offset="922" />
+        <state line="12" column="56" selection-start="385" selection-end="385" vertical-scroll-proportion="0.16594361" vertical-offset="0" max-vertical-offset="922">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemPowerOfTheBright.java">
@@ -1455,7 +1490,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemBookOfMagic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.16267942" vertical-offset="0" max-vertical-offset="627" />
+        <state line="6" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.16267942" vertical-offset="0" max-vertical-offset="627">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/fr_FR.lang">
@@ -1584,11 +1623,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/gui/DecisionScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.67464113" vertical-offset="342" max-vertical-offset="969">
+        <state line="48" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.77874184" vertical-offset="47" max-vertical-offset="969">
           <folding>
             <element signature="e#1688#1689#0" expanded="true" />
             <element signature="e#1712#1713#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/CraftingRegistery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="482" selection-end="482" vertical-scroll-proportion="0.39932886" vertical-offset="0" max-vertical-offset="596">
+          <folding />
         </state>
       </provider>
     </entry>

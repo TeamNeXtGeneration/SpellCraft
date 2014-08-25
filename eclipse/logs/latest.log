@@ -1,94 +1,31 @@
-[16:37:02] [main/INFO]: Setting user: ForgeDevName
-[16:37:05] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:37:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
-[16:37:17] [Sound Library Loader/INFO]: Sound engine started
-[16:37:20] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[16:37:20] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:37:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
-[16:37:21] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:37:22] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[16:37:23] [Sound Library Loader/INFO]: Sound engine started
-[16:37:48] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:37:48] [Server thread/INFO]: Generating keypair
-[16:37:48] [Server thread/INFO]: Converting map!
-[16:37:48] [Server thread/INFO]: Scanning folders...
-[16:37:48] [Server thread/INFO]: Total conversion count is 0
-[16:37:50] [Server thread/INFO]: Preparing start region for level 0
-[16:37:51] [Server thread/INFO]: Preparing spawn area: 6%
-[16:37:52] [Server thread/INFO]: Preparing spawn area: 15%
-[16:37:53] [Server thread/INFO]: Preparing spawn area: 24%
-[16:37:54] [Server thread/INFO]: Preparing spawn area: 33%
-[16:37:55] [Server thread/INFO]: Preparing spawn area: 42%
-[16:37:56] [Server thread/INFO]: Preparing spawn area: 51%
-[16:37:57] [Server thread/INFO]: Preparing spawn area: 62%
-[16:37:58] [Server thread/INFO]: Preparing spawn area: 70%
-[16:37:59] [Server thread/INFO]: Preparing spawn area: 79%
-[16:38:00] [Server thread/INFO]: Preparing spawn area: 91%
-[16:38:01] [Server thread/INFO]: ForgeDevName[local:E:d4cc7a77] logged in with entity id 263 at (180.5, 67.0, 233.5)
-[16:38:01] [Server thread/INFO]: ForgeDevName joined the game
-[16:38:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7989ms behind, skipping 159 tick(s)
-[16:38:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 113 ms
-[16:38:17] [Client thread/INFO]: Warning: Clientside chunk ticking took 143 ms
-[16:38:27] [Client thread/INFO]: Warning: Clientside chunk ticking took 444 ms
-[16:38:31] [Server thread/INFO]: ForgeDevName has just earned the achievement [Taking Inventory]
-[16:38:31] [Client thread/INFO]: [CHAT] ForgeDevName has just earned the achievement [Taking Inventory]
-[16:38:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 213 ms
-[16:38:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 401 ms
-[16:38:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12752ms behind, skipping 255 tick(s)
-[16:40:08] [Server thread/INFO]: Saving and pausing game...
-[16:40:08] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Overworld
-[16:40:08] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Nether
-[16:40:08] [Server thread/INFO]: Saving chunks for level 'GUITEST'/The End
-[16:40:08] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Underworld
-[16:40:25] [Server thread/INFO]: Saving and pausing game...
-[16:40:26] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Overworld
-[16:40:26] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Nether
-[16:40:26] [Server thread/INFO]: Saving chunks for level 'GUITEST'/The End
-[16:40:26] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Underworld
-[16:55:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.hurt
-[16:55:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:55:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:55:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:55:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:55:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.hurt
-[16:56:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:23] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:56:29] [Server thread/INFO]: Saving and pausing game...
-[16:56:29] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Overworld
-[16:56:29] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Nether
-[16:56:29] [Server thread/INFO]: Saving chunks for level 'GUITEST'/The End
-[16:56:29] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Underworld
-[16:56:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.witch.idle
-[16:59:02] [Server thread/INFO]: <ForgeDevName> :HELP
-[16:59:02] [Client thread/INFO]: [CHAT] <ForgeDevName> :HELP
-[16:59:05] [Server thread/INFO]: <ForgeDevName> .help
-[16:59:05] [Client thread/INFO]: [CHAT] <ForgeDevName> .help
-[16:59:08] [Server thread/INFO]: <ForgeDevName> .fly
-[16:59:08] [Client thread/INFO]: [CHAT] <ForgeDevName> .fly
-[17:05:35] [Server thread/INFO]: Saving and pausing game...
-[17:05:35] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Overworld
-[17:05:35] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Nether
-[17:05:35] [Server thread/INFO]: Saving chunks for level 'GUITEST'/The End
-[17:05:35] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Underworld
-[17:05:36] [Server thread/INFO]: Stopping server
-[17:05:36] [Server thread/INFO]: Saving players
-[17:05:36] [Server thread/INFO]: Saving worlds
-[17:05:36] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Overworld
-[17:05:36] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Nether
-[17:05:36] [Server thread/INFO]: Saving chunks for level 'GUITEST'/The End
-[17:05:36] [Server thread/INFO]: Saving chunks for level 'GUITEST'/Underworld
-[17:05:38] [Client thread/INFO]: Stopping!
+[17:10:19] [main/INFO]: Setting user: ForgeDevName
+[17:10:21] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:10:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
+[17:10:33] [Sound Library Loader/INFO]: Sound engine started
+[17:10:37] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[17:10:37] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[17:10:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
+[17:10:38] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[17:10:38] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[17:10:39] [Sound Library Loader/INFO]: Sound engine started
+[17:11:24] [Client thread/INFO]: Deleting level GUITEST
+[17:11:24] [Client thread/INFO]: Attempt 1...
+[17:11:26] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:11:26] [Server thread/INFO]: Generating keypair
+[17:11:27] [Server thread/INFO]: Preparing start region for level 0
+[17:11:28] [Server thread/INFO]: Preparing spawn area: 88%
+[17:11:29] [Server thread/INFO]: ForgeDevName[local:E:83057b12] logged in with entity id 277 at (11.527719494129743, 126.0, -0.6015075912591696)
+[17:11:29] [Server thread/INFO]: ForgeDevName joined the game
+[17:12:01] [Server thread/INFO]: [ForgeDevName: Given [Book of Magic] * 1 to ForgeDevName]
+[17:12:01] [Client thread/INFO]: [CHAT] Given [Book of Magic] * 1 to ForgeDevName
+[17:12:45] [Server thread/INFO]: Saving and pausing game...
+[17:12:45] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[17:12:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[17:12:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[17:12:46] [Server thread/INFO]: Stopping server
+[17:12:46] [Server thread/INFO]: Saving players
+[17:12:46] [Server thread/INFO]: Saving worlds
+[17:12:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[17:12:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[17:12:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[17:12:48] [Client thread/INFO]: Stopping!
