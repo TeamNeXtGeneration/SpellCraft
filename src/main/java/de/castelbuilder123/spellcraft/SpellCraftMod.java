@@ -50,13 +50,13 @@ public class SpellCraftMod
     public static CreativeTabs tabSpellCraftBright = new CreativeTabs("SpellCraftBrightPath") {
         @Override
         public Item getTabIconItem() {
-        return ItemRegistery.PowerOfTheBrightItem;
+        return ItemRegistery.SourceOfLightItem;
     }
     };
     public static CreativeTabs tabSpellCraftDark = new CreativeTabs("SpellCraftDarkPath") {
         @Override
         public Item getTabIconItem() {
-            return ItemRegistery.PowerOfTheDarknessItem;
+            return ItemRegistery.DevilTridentItem;
         }
     };
 

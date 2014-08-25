@@ -1,35 +1,16 @@
-[11:34:13] [main/INFO]: Setting user: ForgeDevName
-[11:34:16] [Client thread/INFO]: LWJGL Version: 2.9.1
-[11:34:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
-[11:34:25] [Sound Library Loader/INFO]: Sound engine started
-[11:34:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[11:34:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[11:34:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
-[11:34:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[11:34:29] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[11:34:30] [Sound Library Loader/INFO]: Sound engine started
-[11:34:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[11:34:43] [Server thread/INFO]: Generating keypair
-[11:34:44] [Server thread/INFO]: Preparing start region for level 0
-[11:34:45] [Server thread/INFO]: Preparing spawn area: 95%
-[11:34:46] [Server thread/INFO]: ForgeDevName[local:E:9d4baf38] logged in with entity id 268 at (65.53747576723454, 127.5, 2.064718836625911)
-[11:34:46] [Server thread/INFO]: ForgeDevName joined the game
-[11:34:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8295ms behind, skipping 165 tick(s)
-[11:34:58] [Server thread/INFO]: Saving and pausing game...
-[11:34:58] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
-[11:34:58] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
-[11:34:58] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
-[11:34:58] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
-[11:35:07] [Server thread/INFO]: Saving and pausing game...
-[11:35:07] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
-[11:35:07] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
-[11:35:07] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
-[11:35:07] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
-[11:35:07] [Server thread/INFO]: Stopping server
-[11:35:07] [Server thread/INFO]: Saving players
-[11:35:07] [Server thread/INFO]: Saving worlds
-[11:35:07] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
-[11:35:07] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
-[11:35:07] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
-[11:35:07] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
-[11:35:11] [Client thread/INFO]: Stopping!
+[14:03:47] [main/INFO]: Setting user: ForgeDevName
+[14:03:50] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:04:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
+[14:04:02] [Sound Library Loader/INFO]: Sound engine started
+[14:04:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:04:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:04:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
+[14:04:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:04:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:04:07] [Sound Library Loader/INFO]: Sound engine started
+[14:04:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:04:20] [Server thread/INFO]: Generating keypair
+[14:04:20] [Server thread/INFO]: Preparing start region for level 0
+[14:04:21] [Server thread/INFO]: Preparing spawn area: 41%
+[14:04:23] [Server thread/INFO]: ForgeDevName[local:E:9b410ff2] logged in with entity id 268 at (65.24325727753137, 127.5, -0.8446647591992538)
+[14:04:23] [Server thread/INFO]: ForgeDevName joined the game
