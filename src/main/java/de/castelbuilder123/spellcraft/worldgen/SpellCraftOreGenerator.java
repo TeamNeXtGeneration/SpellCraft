@@ -26,7 +26,6 @@ public class SpellCraftOreGenerator implements IWorldGenerator {
                 {
                     int minVeinSize = 4;
                     int maxVeinSize = 8;
-                    SpellCraftMod.log.info(x + " " + y + " " + z);
                     new WorldGenMinable(BlockRegistery.MagicOre, (minVeinSize + random.nextInt(maxVeinSize - minVeinSize)), Blocks.stone).generate(world, random, x, y, z);
                 }
             }

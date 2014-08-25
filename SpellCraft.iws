@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/data/Mineshaft.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/data/Mineshaft.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/region/r.0.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpellCraft.iws" afterPath="$PROJECT_DIR$/SpellCraft.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/worldgen/SpellCraftOreGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/worldgen/SpellCraftOreGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/NEI/client.cfg" afterPath="$PROJECT_DIR$/eclipse/config/NEI/client.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/session.lock" />
     </list>
     <ignored path="SpellCraft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,19 +88,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpellCraftOreGenerator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SpellCraftOreGenerator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/worldgen/SpellCraftOreGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="42" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="27" column="40" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.51342285" vertical-offset="0" max-vertical-offset="596">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpellCraftMod.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpellCraftMod.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="76" selection-start="3298" selection-end="3298" vertical-scroll-proportion="0.66442955" vertical-offset="505" max-vertical-offset="1513">
+            <state line="78" column="34" selection-start="3047" selection-end="3047" vertical-scroll-proportion="0.0" vertical-offset="917" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
@@ -198,8 +178,8 @@
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/CraftingRegistery.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemBookOfMagic.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemBookOfDarkMagic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/worldgen/SpellCraftOreGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/worldgen/SpellCraftOreGenerator.java" />
       </list>
     </option>
   </component>
@@ -1343,7 +1323,7 @@
       <workItem from="1408896309371" duration="4061000" />
       <workItem from="1408906222095" duration="7335000" />
       <workItem from="1408952430257" duration="14957000" />
-      <workItem from="1408974081364" duration="13706000" />
+      <workItem from="1408974081364" duration="13965000" />
     </task>
     <task id="LOCAL-00001" summary="Dropbox...">
       <created>1408892801564</created>
@@ -1445,11 +1425,15 @@
       <created>1408989604975</created>
       <updated>1408989604975</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Magic Ore World Gen Added">
+      <created>1408991956840</created>
+      <updated>1408991956840</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248307000" />
+    <option name="totallyTimeSpent" value="248566000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1473,7 +1457,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1495,7 +1479,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34388185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34388185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1540,7 +1524,8 @@
     <MESSAGE value="Enhanced DecisionScreen, Fixed lang files (missing .name), Experimenting with pipes from buildcraft and the keyholes" />
     <MESSAGE value="Added crafting recipes of the ingame &quot;wikis&quot;" />
     <MESSAGE value="Added onItemRightClick to ingame wikis&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added onItemRightClick to ingame wikis&#10;" />
+    <MESSAGE value="Magic Ore World Gen Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Magic Ore World Gen Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1871,13 +1856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/worldgen/SpellCraftOreGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1190/forgeSrc-1.7.10-10.13.0.1190-sources.jar!/cpw/mods/fml/common/registry/GameRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="91" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="6834">
@@ -1887,7 +1865,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="76" selection-start="3298" selection-end="3298" vertical-scroll-proportion="0.66442955" vertical-offset="505" max-vertical-offset="1513">
+        <state line="78" column="34" selection-start="3047" selection-end="3047" vertical-scroll-proportion="0.0" vertical-offset="917" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/worldgen/SpellCraftOreGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.51342285" vertical-offset="0" max-vertical-offset="596">
           <folding />
         </state>
       </provider>
