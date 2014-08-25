@@ -1,0 +1,24 @@
+{
+    "boss.devil.DevilLiving":
+    {
+        "catagory": "master",
+        "sounds":
+        [
+            {
+                "name": "boss/devil/DevilLiving.ogg",
+                "stream": false
+            }
+        ]
+    },
+    "boss.devil.DevilDeath":
+    {
+        "catagory": "master",
+        "sounds":
+        [
+            {
+                "name": "boss/devil/DevilDeath.ogg",
+                "stream": false
+            }
+        ]
+    }
+}

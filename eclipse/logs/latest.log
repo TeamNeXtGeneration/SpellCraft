@@ -1,16 +1,36 @@
-[14:03:47] [main/INFO]: Setting user: ForgeDevName
-[14:03:50] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:04:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
-[14:04:02] [Sound Library Loader/INFO]: Sound engine started
-[14:04:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:04:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:04:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
-[14:04:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:04:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:04:07] [Sound Library Loader/INFO]: Sound engine started
-[14:04:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:04:20] [Server thread/INFO]: Generating keypair
-[14:04:20] [Server thread/INFO]: Preparing start region for level 0
-[14:04:21] [Server thread/INFO]: Preparing spawn area: 41%
-[14:04:23] [Server thread/INFO]: ForgeDevName[local:E:9b410ff2] logged in with entity id 268 at (65.24325727753137, 127.5, -0.8446647591992538)
-[14:04:23] [Server thread/INFO]: ForgeDevName joined the game
+[15:04:34] [main/INFO]: Setting user: ForgeDevName
+[15:04:37] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:04:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
+[15:04:46] [Sound Library Loader/INFO]: Sound engine started
+[15:04:48] [Client thread/WARN]: File spellcraft:sounds/boss/devil/DevilLiving.ogg.ogg does not exist, cannot add it to event spellcraft:boss.devil.DevilLiving
+[15:04:48] [Client thread/WARN]: File spellcraft:sounds/boss/devil/DevilDeath.ogg.ogg does not exist, cannot add it to event spellcraft:boss.devil.DevilDeath
+[15:04:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:04:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:04:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft
+[15:04:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:04:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:04:51] [Sound Library Loader/INFO]: Sound engine started
+[15:04:53] [Client thread/WARN]: File spellcraft:sounds/boss/devil/DevilLiving.ogg.ogg does not exist, cannot add it to event spellcraft:boss.devil.DevilLiving
+[15:04:53] [Client thread/WARN]: File spellcraft:sounds/boss/devil/DevilDeath.ogg.ogg does not exist, cannot add it to event spellcraft:boss.devil.DevilDeath
+[15:05:00] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:05:00] [Server thread/INFO]: Generating keypair
+[15:05:01] [Server thread/INFO]: Preparing start region for level 0
+[15:05:02] [Server thread/INFO]: Preparing spawn area: 54%
+[15:05:03] [Server thread/INFO]: ForgeDevName[local:E:bdc2e313] logged in with entity id 366 at (63.19364166864099, 127.5, 0.09500963034502358)
+[15:05:03] [Server thread/INFO]: ForgeDevName joined the game
+[15:05:09] [Client thread/WARN]: Unable to play empty soundEvent: spellcraft:boss.devil.DevilLiving
+[15:05:12] [Client thread/WARN]: Unable to play empty soundEvent: spellcraft:boss.devil.DevilLiving
+[15:05:18] [Client thread/WARN]: Unable to play empty soundEvent: spellcraft:boss.devil.DevilLiving
+[15:05:21] [Server thread/INFO]: Saving and pausing game...
+[15:05:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:05:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:05:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:05:21] [Server thread/INFO]: Saving chunks for level 'New World'/Underworld
+[15:05:41] [Server thread/INFO]: Stopping server
+[15:05:41] [Server thread/INFO]: Saving players
+[15:05:41] [Server thread/INFO]: Saving worlds
+[15:05:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:05:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:05:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:05:41] [Server thread/INFO]: Saving chunks for level 'New World'/Underworld
+[15:05:43] [Client thread/INFO]: Stopping!

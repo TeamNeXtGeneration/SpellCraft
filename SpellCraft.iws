@@ -5,13 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbafcc54-cce1-488f-ab9c-dde5f54b5588" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Jona\Dropbox\Java\Minecraft\Forge\SpellCraft\src\main\resources\assets\spellcraft\sound\boss\devil\DevilDeath.ogg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jona\Dropbox\Java\Minecraft\Forge\SpellCraft\src\main\resources\assets\spellcraft\sound\boss\devil\DevilLiving.ogg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/region/r.-1.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/region/r.0.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/region/r.0.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/session.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM-2/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/DIM1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/ParseTest/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/ParseTest/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ClientProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilTrident.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilTrident.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpellCraft.iws" afterPath="$PROJECT_DIR$/SpellCraft.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java" afterPath="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
     </list>
     <ignored path="SpellCraft.iws" />
@@ -85,10 +104,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpellCraftMod.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java">
+      <file leaf-file-name="ItemDevilTrident.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilTrident.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="46" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.32214764" vertical-offset="641" max-vertical-offset="1887">
+            <state line="40" column="88" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerJoinListener.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="49" selection-start="206" selection-end="206" vertical-scroll-proportion="-0.23327616" vertical-offset="204" max-vertical-offset="4216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ClientProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityBoss.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="37" selection-start="7056" selection-end="7056" vertical-scroll-proportion="0.0" vertical-offset="2732" max-vertical-offset="3944">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/PacketQueryDecision.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/PacketQueryDecisionAnswer.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ServerProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerSendDecision.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/PacketKillEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/MessageHandlerRecvKillEntity.java" />
@@ -148,19 +193,20 @@
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/BlockRegistery.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/data/ExtendedPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilSummoningStaff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/data/PlayerData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/registers/ItemRegistery.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/de_DE.lang" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemSourceOfLight.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemPowerOfTheDarkness.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemPowerOfTheBright.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilTrident.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemBookOfDarkMagic.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemBookOfMagic.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/SpellCraftMod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilTrident.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java" />
       </list>
     </option>
   </component>
@@ -301,6 +347,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spellcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -360,6 +432,108 @@
               <option name="myItemId" value="castelbuilder123" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spellcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="castelbuilder123" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spellcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listener" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="castelbuilder123" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spellcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpellCraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="castelbuilder123" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -391,7 +565,7 @@
     <property name="show.inlinked.gradle.project.popup" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Red&#9;FILE&#9;file://C:/Users/Joseph/Desktop/Coding/Minecraft Development/SpellCraft/src/main/java/de/castelbuilder123/spellcraft/utils/anticheat/Redecision.java&#10;Block&#9;PSI&#9;JAVA://net.minecraft.block.Block&#10;e&#9;FILE&#9;jar://C:/Users/Joseph/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1190/forgeSrc-1.7.10-10.13.0.1190-sources.jar!/net/minecraft/entity/boss/EntityWither.java&#10;&#9;FILE&#9;jar://C:/Users/Joseph/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1190/forgeSrc-1.7.10-10.13.0.1190-sources.jar!/net/minecraft/entity/monster/EntityMob.java&#10;EntityMob&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntityMob&#10;EntityW&#9;PSI&#9;JAVA://net.minecraft.entity.boss.EntityWither" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
-    <property name="SearchEverywhereHistory" value="SaveAll&#10;Save&#10;Tile&#10;CommandBlo&#10;TileEntityCommand&#10;IMessage&#10;SimpleChannelHandler&#10;Packet&#10;guiy&#10;Gui" />
+    <property name="SearchEverywhereHistory" value="ItemSw&#10;SaveAll&#10;Save&#10;Tile&#10;CommandBlo&#10;TileEntityCommand&#10;IMessage&#10;SimpleChannelHandler&#10;Packet&#10;guiy&#10;Gui" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
@@ -794,7 +968,7 @@
       <workItem from="1408892734060" duration="378000" />
       <workItem from="1408896309371" duration="4061000" />
       <workItem from="1408906222095" duration="7335000" />
-      <workItem from="1408952430257" duration="11359000" />
+      <workItem from="1408952430257" duration="14957000" />
     </task>
     <task id="LOCAL-00001" summary="Dropbox...">
       <created>1408892801564</created>
@@ -876,11 +1050,15 @@
       <created>1408968029067</created>
       <updated>1408968029067</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Edited creative tabs icon&#10;">
+      <created>1408968331581</created>
+      <updated>1408968331581</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231003000" />
+    <option name="totallyTimeSpent" value="234601000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -904,7 +1082,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -926,7 +1104,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34388185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34388185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -966,7 +1144,8 @@
     <MESSAGE value="Added Books that are an ingame Wiki (Wiki will be added from time to time)" />
     <MESSAGE value="Added the ingame Books to registery" />
     <MESSAGE value="Added more creative tabs&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more creative tabs&#10;" />
+    <MESSAGE value="Edited creative tabs icon&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited creative tabs icon&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -978,27 +1157,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/PacketOpenGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/PacketQueryDecision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/network/PacketQueryDecisionAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ServerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ClientProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
@@ -1170,27 +1329,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="35" selection-start="3962" selection-end="3962" vertical-scroll-proportion="0.0" vertical-offset="1508" max-vertical-offset="3944">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/data/PlayerData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="57" selection-start="3446" selection-end="3446" vertical-scroll-proportion="-16.6" vertical-offset="945" max-vertical-offset="1581">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="16" selection-start="6595" selection-end="6595" vertical-scroll-proportion="2.7696629" vertical-offset="1530" max-vertical-offset="4165">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1265,13 +1406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilTrident.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="54" selection-start="381" selection-end="381" vertical-scroll-proportion="0.16594361" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spellcraft/lang/de_DE.lang">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="687" selection-end="793" vertical-scroll-proportion="0.25813448" vertical-offset="0" max-vertical-offset="922">
@@ -1308,6 +1442,59 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1190/forgeSrc-1.7.10-10.13.0.1190-sources.jar!/net/minecraft/item/ItemSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="589" selection-end="589" vertical-scroll-proportion="0.11409396" vertical-offset="0" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1190/forgeSrc-1.7.10-10.13.0.1190-sources.jar!/net/minecraftforge/client/event/sound/SoundLoadEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="328" selection-end="328" vertical-scroll-proportion="0.3137584" vertical-offset="0" max-vertical-offset="596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/item/ItemDevilTrident.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="88" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/proxies/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1190/forgeSrc-1.7.10-10.13.0.1190-sources.jar!/net/minecraft/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="542" column="21" selection-start="41820" selection-end="41820" vertical-scroll-proportion="0.39426523" vertical-offset="8688" max-vertical-offset="25551">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/entity/EntityBoss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="37" selection-start="7056" selection-end="7056" vertical-scroll-proportion="0.0" vertical-offset="2732" max-vertical-offset="3944">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/castelbuilder123/spellcraft/listener/PlayerJoinListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="49" selection-start="206" selection-end="206" vertical-scroll-proportion="-0.23327616" vertical-offset="204" max-vertical-offset="4216">
+          <folding />
         </state>
       </provider>
     </entry>

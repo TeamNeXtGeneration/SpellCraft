@@ -13,7 +13,6 @@ import de.castelbuilder123.spellcraft.gui.DecisionScreen;
 import de.castelbuilder123.spellcraft.network.PacketHandler;
 import de.castelbuilder123.spellcraft.network.PacketOpenGUI;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.model.ModelWolf;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.world.World;
@@ -27,7 +26,7 @@ public class ClientProxy extends Proxy implements IGuiHandler
 	
 	public void initSounds()
 	{
-	
+
 	}
 	
 	public void initRenderers()

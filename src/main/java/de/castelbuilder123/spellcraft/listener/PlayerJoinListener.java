@@ -31,6 +31,7 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.event.world.WorldEvent;
 
+import java.io.File;
 import java.io.IOException;
 
 
@@ -117,6 +118,8 @@ public class PlayerJoinListener {
         //{
         //    SpellCraftMod.log.info(b.getUnlocalizedName());
         //}
+
+
 
         if (event.world.provider.dimensionId == -2) //if (false)
         {
