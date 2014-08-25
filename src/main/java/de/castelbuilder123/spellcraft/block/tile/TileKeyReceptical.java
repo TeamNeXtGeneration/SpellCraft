@@ -57,7 +57,7 @@ public class TileKeyReceptical extends TileEntity implements ISidedInventory {
 
     @Override
     public boolean canExtractItem(int p_102008_1_, ItemStack p_102008_2_, int p_102008_3_) {
-        return false;
+        return true;
     }
 
     @Override

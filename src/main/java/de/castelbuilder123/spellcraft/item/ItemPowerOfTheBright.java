@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 public class ItemPowerOfTheBright extends Item{
     public ItemPowerOfTheBright(){
         super();
-        setCreativeTab(SpellCraftMod.tabSpellCraft);
+        setCreativeTab(SpellCraftMod.tabSpellCraftBright);
         setMaxStackSize(64);
     }
 

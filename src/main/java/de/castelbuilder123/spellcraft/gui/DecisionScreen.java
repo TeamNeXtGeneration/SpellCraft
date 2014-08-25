@@ -5,9 +5,6 @@ import de.castelbuilder123.spellcraft.network.PacketHandler;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 
-/**
- * Created by Jona on 21.08.14.
- */
 public class DecisionScreen extends GuiScreen {
 
 
@@ -44,7 +41,9 @@ public class DecisionScreen extends GuiScreen {
 
     public void drawScreen(int p1, int p2, float p3)
     {
+        this.drawWorldBackground(0x000000);
         this.drawCenteredString(mc.fontRenderer, "Devil", this.width / 2, 20, 0xFF0000);
+        this.drawCenteredString(mc.fontRenderer, "Come with me and get the power of the Darkness", this.width/2, 40, 0xFF0000);
         super.drawScreen(p1, p2, p3);
     }
 

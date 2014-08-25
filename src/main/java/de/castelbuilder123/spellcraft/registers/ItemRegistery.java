@@ -15,6 +15,8 @@ public class ItemRegistery
     public static Item SourceOfLightItem;
     public static Item PowerOfTheDarknessItem;
     public static Item PowerOfTheBrightItem;
+    public static Item BookOfMagicItem;
+    public static Item BookOfDarkMagicItem;
 
 	public static void Register()
 	{
@@ -35,6 +37,10 @@ public class ItemRegistery
             GameRegistry.registerItem(PowerOfTheDarknessItem, PowerOfTheDarknessItem.getUnlocalizedName());
             PowerOfTheBrightItem = new ItemPowerOfTheBright();
             GameRegistry.registerItem(PowerOfTheBrightItem, PowerOfTheBrightItem.getUnlocalizedName());
+            BookOfMagicItem = new ItemBookOfMagic();
+            GameRegistry.registerItem(BookOfMagicItem, BookOfMagicItem.getUnlocalizedName());
+            BookOfDarkMagicItem = new ItemBookOfDarkMagic();
+            GameRegistry.registerItem(BookOfDarkMagicItem, BookOfDarkMagicItem.getUnlocalizedName());
 		}
 	}
 	public static boolean getRegistered()

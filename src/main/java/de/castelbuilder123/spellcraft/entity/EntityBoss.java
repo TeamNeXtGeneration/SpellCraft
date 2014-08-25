@@ -1,18 +1,15 @@
 package de.castelbuilder123.spellcraft.entity;
 
-import com.sun.xml.internal.bind.v2.runtime.reflect.Lister;
 import de.castelbuilder123.spellcraft.SpellCraftMod;
 import de.castelbuilder123.spellcraft.data.PlayerData;
 import de.castelbuilder123.spellcraft.data.PlayerNBTData;
 import de.castelbuilder123.spellcraft.gui.DecisionScreen;
 import de.castelbuilder123.spellcraft.network.PacketHandler;
 import de.castelbuilder123.spellcraft.network.PacketKillEntity;
-import de.castelbuilder123.spellcraft.network.PacketQueryDecision;
-import de.castelbuilder123.spellcraft.proxies.Proxy;
+import de.castelbuilder123.spellcraft.registers.BlockRegistery;
 import de.castelbuilder123.spellcraft.registers.ItemRegistery;
 import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import de.castelbuilder123.spellcraft.utils.dict.PlayerDict;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.IRangedAttackMob;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -21,7 +18,6 @@ import net.minecraft.entity.boss.IBossDisplayData;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityFireball;
-import net.minecraft.inventory.ContainerFurnace;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ChatComponentText;
@@ -43,8 +39,11 @@ public class EntityBoss extends EntityMob implements IBossDisplayData, IRangedAt
     public void writeEntityToNBT(NBTTagCompound tag)
     {
         NBTTagCompound nbt = new NBTTagCompound();
-        nbt.setString("killer", killer.getDisplayName());
-        nbt.setInteger("PlayerDecision", PlayerDecision);
+        if (killer != null)
+        {
+            nbt.setString("killer", killer.getDisplayName());
+            nbt.setInteger("PlayerDecision", PlayerDecision);
+        }
     }
 
     @Override
@@ -100,7 +99,7 @@ public class EntityBoss extends EntityMob implements IBossDisplayData, IRangedAt
             {
                 for(PlayerNBTData da: PlayerData.playerNBTDatas)
                 {
-                    if (da.username == killer.getDisplayName())
+                    if (da.username.equals(killer.getDisplayName()))
                     {
                         if (da.decision != 0 && da.decision != 3)
                         {
@@ -114,6 +113,7 @@ public class EntityBoss extends EntityMob implements IBossDisplayData, IRangedAt
             {
                 killer.addChatMessage(new ChatComponentText("<Devil> Ahh.. ok. here you can have my Trident"));
                 killer.inventory.addItemStackToInventory(new ItemStack(ItemRegistery.DevilTridentItem));
+                killer.inventory.addItemStackToInventory(new ItemStack(BlockRegistery.BossPortal));
                 this.worldObj.removeEntity(this);
                 PacketKillEntity packet = new PacketKillEntity();
                 packet.EntityID = this.getEntityId();
@@ -172,6 +172,7 @@ public class EntityBoss extends EntityMob implements IBossDisplayData, IRangedAt
         if (PlayerDecision == 4)
         {
             killer.inventory.addItemStackToInventory(new ItemStack(ItemRegistery.SourceOfLightItem));
+            killer.inventory.addItemStackToInventory(new ItemStack(BlockRegistery.BossPortal));
         }
     }
 

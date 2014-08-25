@@ -7,7 +7,6 @@ import de.castelbuilder123.spellcraft.SpellCraftMod;
 import de.castelbuilder123.spellcraft.block.BlockMagicOre;
 import de.castelbuilder123.spellcraft.data.MapData;
 import de.castelbuilder123.spellcraft.data.PlayerData;
-import de.castelbuilder123.spellcraft.registers.BlockRegistery;
 import de.castelbuilder123.spellcraft.registers.ItemRegistery;
 import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import de.castelbuilder123.spellcraft.utils.dict.PlayerDict;
@@ -32,12 +31,10 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.event.world.WorldEvent;
 
+import java.io.File;
 import java.io.IOException;
 
 
-/**
- * Created by Jona on 05.08.14.
- */
 public class PlayerJoinListener {
     @SubscribeEvent
     public void onPlayerLogin(PlayerEvent.PlayerLoggedInEvent event)
@@ -122,6 +119,8 @@ public class PlayerJoinListener {
         //    SpellCraftMod.log.info(b.getUnlocalizedName());
         //}
 
+
+
         if (event.world.provider.dimensionId == -2) //if (false)
         {
             MapData mapData = (MapData)event.world.mapStorage.loadData(MapData.class, MapData.IDENTIFIER);
@@ -188,7 +187,7 @@ public class PlayerJoinListener {
             if (event.isCancelable())
                 event.setCanceled(true);
         }
-        if (event.block instanceof BlockMagicOre)
+        if (event.block instanceof BlockMagicOre && !event.isCanceled())
         {
             ItemStack item = new ItemStack(Blocks.cobblestone);
             int decision = Redecision.GetPlayerDecision(event.getPlayer().getDisplayName());

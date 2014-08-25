@@ -9,7 +9,7 @@ public class ItemPowerOfTheDarkness extends Item {
     public ItemPowerOfTheDarkness(){
 
         super();
-        setCreativeTab(SpellCraftMod.tabSpellCraft);
+        setCreativeTab(SpellCraftMod.tabSpellCraftDark);
         setMaxStackSize(64);
     }
 
