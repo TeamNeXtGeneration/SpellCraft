@@ -9,6 +9,8 @@ import de.castelbuilder123.spellcraft.entity.models.ModelBoss;
 import de.castelbuilder123.spellcraft.entity.models.ModelHellDog;
 import de.castelbuilder123.spellcraft.entity.renderers.RenderBoss;
 import de.castelbuilder123.spellcraft.entity.renderers.RenderHellDog;
+import de.castelbuilder123.spellcraft.gui.BookBright;
+import de.castelbuilder123.spellcraft.gui.BookDark;
 import de.castelbuilder123.spellcraft.gui.DecisionScreen;
 import de.castelbuilder123.spellcraft.network.PacketHandler;
 import de.castelbuilder123.spellcraft.network.PacketOpenGUI;
@@ -67,6 +69,12 @@ public class ClientProxy extends Proxy implements IGuiHandler
         if (ID == DecisionScreen.GUI_ID)
         {
             return new DecisionScreen();
+        }
+        else if (ID == BookBright.GUI_ID){
+            return new BookBright();
+        }
+        else if(ID == BookDark.GUI_ID){
+            return new BookDark();
         }
         return null;
     }

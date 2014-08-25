@@ -1,6 +1,7 @@
 package de.castelbuilder123.spellcraft.item;
 
 import de.castelbuilder123.spellcraft.SpellCraftMod;
+import de.castelbuilder123.spellcraft.gui.BookBright;
 import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
@@ -43,7 +44,7 @@ public class ItemBookOfMagic extends Item {
         }
         else
         {
-
+            player.openGui(SpellCraftMod.instance, BookBright.GUI_ID, world, (int)player.posX,  (int)player.posY,  (int)player.posZ);
         }
         return item;
     }
