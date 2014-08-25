@@ -5,7 +5,7 @@
         "sounds":
         [
             {
-                "name": "boss/devil/DevilLiving.ogg",
+                "name": "boss/devil/DevilLiving",
                 "stream": false
             }
         ]
@@ -16,7 +16,7 @@
         "sounds":
         [
             {
-                "name": "boss/devil/DevilDeath.ogg",
+                "name": "boss/devil/DevilDeath",
                 "stream": false
             }
         ]
