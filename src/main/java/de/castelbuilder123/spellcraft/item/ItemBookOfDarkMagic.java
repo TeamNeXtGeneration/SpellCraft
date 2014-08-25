@@ -1,9 +1,12 @@
 package de.castelbuilder123.spellcraft.item;
 
 import de.castelbuilder123.spellcraft.SpellCraftMod;
+import de.castelbuilder123.spellcraft.utils.anticheat.Redecision;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class ItemBookOfDarkMagic extends Item {
     public ItemBookOfDarkMagic() {
@@ -25,5 +28,15 @@ public class ItemBookOfDarkMagic extends Item {
     @Override
     public void registerIcons(IIconRegister register) {
         this.itemIcon = register.registerIcon(SpellCraftMod.MODID + ":IconItemBookOfDarkMagic");
+    }
+
+    @Override
+    public ItemStack onItemRightClick(ItemStack item, World world, EntityPlayer player)
+    {
+        if (Redecision.GetPlayerDecision(player.getDisplayName()) == 2)
+        {
+
+        }
+        return item;
     }
 }
