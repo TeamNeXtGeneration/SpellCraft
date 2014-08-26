@@ -15,3 +15,17 @@
 [18:30:14] [Server thread/INFO]: Preparing spawn area: 93%
 [18:30:15] [Server thread/INFO]: ForgeDevName[local:E:8f28a1c6] logged in with entity id 253 at (1026.7919800659383, 97.32101998718261, -310.13711195883195)
 [18:30:15] [Server thread/INFO]: ForgeDevName joined the game
+[18:46:41] [Client thread/INFO]: [CHAT] Saved screenshot as 2014-08-26_18.46.41.png
+[18:46:58] [Server thread/INFO]: Saving and pausing game...
+[18:46:58] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[18:46:58] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[18:46:58] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[18:46:58] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
+[18:46:59] [Server thread/INFO]: Stopping server
+[18:46:59] [Server thread/INFO]: Saving players
+[18:46:59] [Server thread/INFO]: Saving worlds
+[18:46:59] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
+[18:46:59] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
+[18:46:59] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
+[18:46:59] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
+[18:47:03] [Client thread/INFO]: Stopping!
