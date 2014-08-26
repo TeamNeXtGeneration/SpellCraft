@@ -1,38 +1,17 @@
-[20:35:41] [main/INFO]: Setting user: ForgeDevName
-[20:35:43] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:35:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
-[20:35:55] [Sound Library Loader/INFO]: Sound engine started
-[20:35:59] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[20:35:59] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[20:36:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
-[20:36:00] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[20:36:00] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[20:36:01] [Sound Library Loader/INFO]: Sound engine started
-[20:36:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:36:08] [Server thread/INFO]: Generating keypair
-[20:36:09] [Server thread/INFO]: Preparing start region for level 0
-[20:36:10] [Server thread/INFO]: Preparing spawn area: 70%
-[20:36:11] [Server thread/INFO]: ForgeDevName[local:E:d4c0c4a5] logged in with entity id 255 at (499.20501651736606, 5.0, 228.34795325902428)
-[20:36:11] [Server thread/INFO]: ForgeDevName joined the game
-[20:36:16] [Server thread/INFO]: Saving and pausing game...
-[20:36:16] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
-[20:36:16] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
-[20:36:16] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
-[20:36:16] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
-[20:38:40] [Server thread/INFO]: <ForgeDevName> works
-[20:38:40] [Client thread/INFO]: [CHAT] <ForgeDevName> works
-[20:38:45] [Server thread/INFO]: <ForgeDevName> back to work
-[20:38:45] [Client thread/INFO]: [CHAT] <ForgeDevName> back to work
-[20:38:45] [Server thread/INFO]: Saving and pausing game...
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
-[20:38:46] [Server thread/INFO]: Stopping server
-[20:38:46] [Server thread/INFO]: Saving players
-[20:38:46] [Server thread/INFO]: Saving worlds
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Overworld
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Nether
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/The End
-[20:38:46] [Server thread/INFO]: Saving chunks for level 'ParseTest'/Underworld
-[20:38:49] [Client thread/INFO]: Stopping!
+[18:29:17] [main/INFO]: Setting user: ForgeDevName
+[18:29:22] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:29:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
+[18:29:41] [Sound Library Loader/INFO]: Sound engine started
+[18:29:54] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[18:29:54] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[18:29:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:SpellCraft, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport
+[18:29:55] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[18:29:56] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[18:29:56] [Sound Library Loader/INFO]: Sound engine started
+[18:30:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:30:11] [Server thread/INFO]: Generating keypair
+[18:30:12] [Server thread/INFO]: Preparing start region for level 0
+[18:30:13] [Server thread/INFO]: Preparing spawn area: 20%
+[18:30:14] [Server thread/INFO]: Preparing spawn area: 93%
+[18:30:15] [Server thread/INFO]: ForgeDevName[local:E:8f28a1c6] logged in with entity id 253 at (1026.7919800659383, 97.32101998718261, -310.13711195883195)
+[18:30:15] [Server thread/INFO]: ForgeDevName joined the game
