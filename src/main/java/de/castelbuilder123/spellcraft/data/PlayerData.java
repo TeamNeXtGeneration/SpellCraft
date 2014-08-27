@@ -75,10 +75,10 @@ public class PlayerData {
                         }
                     }
                 }
-                catch (MinecraftException minecraftexception)
+                catch (Exception exception)
                 {
-                    SpellCraftMod.log.error("Caught MineCraftException");
-                    minecraftexception.printStackTrace();
+                    SpellCraftMod.log.error("Caught Exception");
+                    exception.printStackTrace();
                 }
             }
             playerNBTDatas.remove(data);

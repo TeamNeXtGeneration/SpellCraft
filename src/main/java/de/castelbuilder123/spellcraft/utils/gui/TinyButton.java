@@ -30,12 +30,13 @@ public class TinyButton {
         screen.mc.renderEngine.bindTexture(new ResourceLocation(String.format("%s:textures/gui/TinyButtonInActive.png", SpellCraftMod.MODID)));
         screen.drawTexturedModalRect(this.x, this.y, 0,0, width,height);
         screen.mc.renderEngine.bindTexture(new ResourceLocation(icon));
-        SpellCraftMod.log.info("Mouse Pos: " + x + " " + y);
+        //SpellCraftMod.log.info("Button Pos: " + x + " " + y);
         screen.drawTexturedModalRect(this.x, this.y, 0,0, width,height);
     }
 
     public boolean isPressed(int mX, int mY)
     {
+        //SpellCraftMod.log.info("x,y: " + x + " " + y);
         return (mX > x && mX < x+width && mY > y && mY < y+height);
     }
 }
