@@ -1,10 +1,14 @@
 package de.castelbuilder123.spellcraft.item;
 
 import de.castelbuilder123.spellcraft.SpellCraftMod;
+import de.castelbuilder123.spellcraft.registers.BlockRegistery;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class ItemDevilTrident extends Item
 {
@@ -13,6 +17,18 @@ public class ItemDevilTrident extends Item
         super();
         setCreativeTab(SpellCraftMod.tabSpellCraftDark);
         setMaxStackSize(1);
+    }
+
+    @Override
+    public boolean onItemUse(ItemStack stack, EntityPlayer player, World world, int x, int y, int z, int side, float hitx, float hity, float hitz)
+    {
+        if (!player.isSneaking()) return false;
+        if (world.getBlock(x,y,z) == Blocks.crafting_table)
+        {
+            world.setBlock(x,y,z, BlockRegistery.DarkCrafter, 0, 3);
+            return true;
+        }
+        return false;
     }
 
     @Override

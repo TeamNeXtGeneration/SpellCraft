@@ -2,9 +2,7 @@ package de.castelbuilder123.spellcraft.gui;
 
 import de.castelbuilder123.spellcraft.SpellCraftMod;
 import de.castelbuilder123.spellcraft.data.persistend.client.BookData;
-import de.castelbuilder123.spellcraft.utils.gui.Grid;
-import de.castelbuilder123.spellcraft.utils.gui.TinyButton;
-import de.castelbuilder123.spellcraft.utils.gui.TinyButtonInfo;
+import de.castelbuilder123.spellcraft.utils.gui.*;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.util.ResourceLocation;
@@ -17,6 +15,7 @@ public class BookDark extends GuiScreen {
     public static int GUI_ID = 3;
 
     Grid grid;
+    WikiPage currentPage;
 
     public BookDark() {
 
@@ -29,6 +28,11 @@ public class BookDark extends GuiScreen {
         if (keyCode == Keyboard.KEY_BACK)
         {
             BookData.renderID = -1;
+        }
+        else if (BookData.renderID == -1)
+        {
+            if (currentPage != null)
+                currentPage.onKeyPress(Char, keyCode);
         }
         super.keyTyped(Char, keyCode);
     }
@@ -48,6 +52,21 @@ public class BookDark extends GuiScreen {
         grid = new Grid((int)(width*.25), (int)(height*.25), (int)(width*.5), (int)(height*.5), new ResourceLocation(SpellCraftMod.MODID+":textures/gui/DarkBG.png"));
         // GUIButton Constructor: ButtonID, x,y, width, height, text
         grid.buttonList.add(new TinyButtonInfo(-8,-8, new TinyButton(0,0,16,16, SpellCraftMod.MODID+":textures/gui/dark/GetStarted16.png")));
+        if (BookData.renderID != -1)
+        {
+            setWikiPage(getWikiPageByID(BookData.renderID));
+        }
+    }
+
+    private WikiPage getWikiPageByID(int id)
+    {
+        switch (id)
+        {
+            case 0:
+                return new WikiPageDarkIntro();
+        }
+        SpellCraftMod.log.error("[GUI] [BookDark] Unknown WikiPage: " + id + "! Please report this!");
+        return null;
     }
 
     public void updateScreen() {
@@ -58,6 +77,11 @@ public class BookDark extends GuiScreen {
             grid.width = (int)(width*.5);
             grid.height = (int)(height*.5);
             grid.update(this);
+        }
+        else
+        {
+            if (currentPage != null)
+                currentPage.update(this);
         }
         super.updateScreen();
     }
@@ -71,6 +95,11 @@ public class BookDark extends GuiScreen {
         this.drawWorldBackground(0x000000);
         if (BookData.renderID == -1)
             grid.render(this);
+        else
+        {
+            if (currentPage != null)
+                currentPage.render(this);
+        }
         super.drawScreen(p1, p2, p3);
     }
 
@@ -92,8 +121,16 @@ public class BookDark extends GuiScreen {
                 if (buttonIDpressed != -1)
                 {
                     BookData.renderID = buttonIDpressed;
+                    setWikiPage(getWikiPageByID(buttonIDpressed));
                 }
+                else
+                    setWikiPage(null);
             }
+        }
+        else
+        {
+            if (currentPage != null)
+                currentPage.onClick(x, y, button);
         }
         super.mouseClicked(x,y,button);
     }
@@ -111,5 +148,14 @@ public class BookDark extends GuiScreen {
                 grid.centerY -= changeY;
             }
         }
+    }
+
+    public void setWikiPage(WikiPage wikiPage)
+    {
+        if (currentPage != null)
+            currentPage.onClose();
+        currentPage = wikiPage;
+        if (currentPage != null)
+            currentPage.init(this);
     }
 }

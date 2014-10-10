@@ -11,6 +11,7 @@ spellcraft.blockPortalBoss.name=Portal zur Unterwelt
 spellcraft.blockKeyReceptical.name=Schlüsselloch
 spellcraft.blockKeyStone.name=Schlüsselstein
 spellcraft.blockMagicOre.name=Magisches Erz
+spellcraft.blockDarkCrafter.name=Dunkle Werkbank
 itemGroup.SpellCraft=SpellCraft
 itemGroup.SpellCraftBrightPath=SpellCraft heller Pfad
 itemGroup.SpellCraftDarkPath=SpellCraft dunkler Pfad

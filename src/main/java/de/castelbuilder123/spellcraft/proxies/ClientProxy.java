@@ -3,6 +3,8 @@ package de.castelbuilder123.spellcraft.proxies;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.network.IGuiHandler;
 import de.castelbuilder123.spellcraft.SpellCraftMod;
+import de.castelbuilder123.spellcraft.block.container.ContainerDarkCrafter;
+import de.castelbuilder123.spellcraft.block.tile.TileDarkCrafter;
 import de.castelbuilder123.spellcraft.entity.EntityBoss;
 import de.castelbuilder123.spellcraft.entity.EntityHellDog;
 import de.castelbuilder123.spellcraft.entity.models.ModelBoss;
@@ -11,6 +13,7 @@ import de.castelbuilder123.spellcraft.entity.renderers.RenderBoss;
 import de.castelbuilder123.spellcraft.entity.renderers.RenderHellDog;
 import de.castelbuilder123.spellcraft.gui.BookBright;
 import de.castelbuilder123.spellcraft.gui.BookDark;
+import de.castelbuilder123.spellcraft.gui.DarkCrafter;
 import de.castelbuilder123.spellcraft.gui.DecisionScreen;
 import de.castelbuilder123.spellcraft.network.PacketHandler;
 import de.castelbuilder123.spellcraft.network.PacketOpenGUI;
@@ -61,6 +64,17 @@ public class ClientProxy extends Proxy implements IGuiHandler
             packet.GUIID = ID;
             PacketHandler.INSTANCE.sendTo(packet, (EntityPlayerMP) player);
         }
+        else if (ID == DarkCrafter.GUI_ID)
+        {
+            try
+            {
+                return new ContainerDarkCrafter(player.inventory, (TileDarkCrafter) world.getTileEntity(x,y,z));
+            }
+            catch (ClassCastException ex)
+            {
+                SpellCraftMod.log.error("TileEntity != TileDarkCrafter");
+            }
+        }
         return null;
     }
 
@@ -75,6 +89,17 @@ public class ClientProxy extends Proxy implements IGuiHandler
         }
         else if(ID == BookDark.GUI_ID){
             return new BookDark();
+        }
+        else if (ID == DarkCrafter.GUI_ID)
+        {
+            try
+            {
+                return new DarkCrafter(new ContainerDarkCrafter(player.inventory, (TileDarkCrafter) world.getTileEntity(x,y,z)));
+            }
+            catch (ClassCastException ex)
+            {
+                SpellCraftMod.log.error("TileEntity != TileDarkCrafter");
+            }
         }
         return null;
     }

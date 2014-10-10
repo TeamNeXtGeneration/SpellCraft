@@ -11,6 +11,7 @@ spellcraft.blockPortalBoss.name=Portal to the Underworld
 spellcraft.blockKeyReceptical.name=Keyhole
 spellcraft.blockKeyStone.name=Key Stone
 spellcraft.blockMagicOre.name=Magic Ore
+spellcraft.blockDarkCrafter.name=Dark Crafting Table
 itemGroup.SpellCraft=SpellCraft
 itemGroup.SpellCraftBrightPath=SpellCraft bright Path
 itemGroup.SpellCraftDarkPath=SpellCraft dark Path

@@ -33,4 +33,13 @@ public class Redecision {
         int decision = GetPlayerDecision(username);
         return decision == 1 || decision == 2;
     }
+
+    public static void Sync(String displayName) {
+        if (!Proxy.runsOnServer())
+        {
+            PacketQueryDecision packet = new PacketQueryDecision();
+            packet.u = displayName;
+            PacketHandler.INSTANCE.sendToServer(packet);
+        }
+    }
 }

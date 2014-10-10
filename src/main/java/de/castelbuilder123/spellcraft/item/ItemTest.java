@@ -1,14 +1,18 @@
 package de.castelbuilder123.spellcraft.item;
 
 import de.castelbuilder123.spellcraft.SpellCraftMod;
+import de.castelbuilder123.spellcraft.block.tile.TileDarkCrafter;
+import de.castelbuilder123.spellcraft.registers.BlockRegistery;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ChatComponentText;
+import net.minecraft.world.World;
 
 /**
  * Created by Jona on 04.08.14.
@@ -32,6 +36,15 @@ public class ItemTest extends Item {
     public String getUnlocalizedName(ItemStack item)
     {
         return SpellCraftMod.MODID + ".itemTest";
+    }
+
+    public boolean onItemUse(ItemStack itemStack, EntityPlayer player, World world, int x, int y, int z, int meta, float clickX, float clickY, float clickZ)
+    {
+        if (world.getBlock(x,y,z) == BlockRegistery.DarkCrafter)
+        {
+            player.addChatMessage(new ChatComponentText("DarkCrafter Power:" + ((TileDarkCrafter)world.getTileEntity(x,y,z)).Power));
+        }
+        return false;
     }
 
     @Override

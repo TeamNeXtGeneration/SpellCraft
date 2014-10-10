@@ -11,6 +11,7 @@ public class BlockRegistery
     public static BlockKeyReceptical KeyReceptical;
     public static BlockKeyStone KeyStone;
     public static BlockMagicOre MagicOre;
+    public static BlockDarkCrafter DarkCrafter;
 
 	public static void Register()
 	{
@@ -25,6 +26,8 @@ public class BlockRegistery
             GameRegistry.registerBlock(KeyStone, KeyStone.getUnlocalizedName());
             MagicOre = new BlockMagicOre();
             GameRegistry.registerBlock(MagicOre, MagicOre.getUnlocalizedName());
+            DarkCrafter = new BlockDarkCrafter();
+            GameRegistry.registerBlock(DarkCrafter, DarkCrafter.getUnlocalizedName());
 		}
 	}
 	public static boolean getRegistered()
